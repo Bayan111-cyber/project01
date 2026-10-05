@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> 42</title>
+</head>
+<form>
+    <fieldset>
+        <legend>Personal Information</legend>
+        <div>
+            <label for="name">Name:</label>
+            <input id="name" type="text" placeholder="Enter your name" required>
+        </div>
+
+        <div>
+            <label for="email">Email:</label>
+            <input id="email" type="email" placeholder="Enter your email" required>
+        </div>
+
+        <div>
+            <label for="password">Password:</label>
+            <input id="password" type="password" placeholder="Example: 123456" required>
+            <input id="submit" type="submit" value="Submit">
+        </div>
+
+        <div>
+            <label for="dob">Date of Birth:</label>
+            <input id="dob" type="date" required>
+        </div>
+
+        <div>
+            <label for="agreement">I agree to the terms and conditions</label>
+            <input id="agreement" type="checkbox" required> I agree
+        </div>
+        <div>
+            <input id="male" type="radio" name="gender" value="male"> Male
+            <input id="female" type="radio" name="gender" value="female"> Female
+        </div>
+        <div>
+            <label for="age">Age:</label>
+            <input id="age" type="number" placeholder="Enter your age" required>
+        </div>
+        <div>
+            <label for="country">Country:</label>
+            <select id="country" required>
+                <option value="">Select your country</option>
+                <option value="usa">USA</option>
+                <option value="canada">Canada</option>
+                <option value="uk">UK</option>
+                <option value="australia">Australia</option>
+            </select>
+
+        <div><label for="bio">About You</label>
+            <textarea id="bio" name="bio" required minlength="10"></textarea>
+        </div>
+</form>
+
+<body>
+</body>
+
+</html>
